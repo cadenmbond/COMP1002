@@ -1,1 +1,1 @@
-# COMP1003
+# COMP 1002 Projects
