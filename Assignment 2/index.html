@@ -22,7 +22,7 @@
     </header>
     <!-- Separates Lyrics from Title Card -->
     <main>
-        <h2>Lyrics:</h2>
+        <h2 id="lyric-header">Lyrics:</h2>
         <section id="lyric-container">
             <p class="instrumental-label">Instrumental</p>
             <!-- First Verse -->
@@ -40,16 +40,16 @@
             <section class="verse-container" id="verse-two">
                 <h3 class="section-header">Verse 2</h3>
                 <p>In former days, Masks were raised</p>
-                <p>When the god came down From off of the mountain. </p>
+                <p>When the god came down From off of the <span class="stretched-text">Mountain.</span> </p>
                 <p> And the sacrifice was made, </p>
-                <p> For he knew the day of wrath was fast approaching.</p>
-                <p> Just like yesterday before the war</p>
+                <p> For he knew the day of wrath was fast <span class="stretched-text">approaching.</span>.</p>
+                <p> Just like yesterday <span class="red-text"> before the war.</span></p>
             </section>
             <p class="instrumental-label">Instrumental</p>
             <!-- Refrain -->
             <section class="verse-container" id="verse-three">
                 <h3 class="section-header">Refrain</h3>
-                <p><b>John Francis Dooley</b>, the scapegoat has run.</p>
+                <p><span class="italicized-text">John Francis Dooley</span>, the scapegoat has run.</p>
                 <p> All our sins are disowned </p>
                 <p> And now it's time for you, To take off your mask. </p>
                 <p> And cross the <a href="https://en.wikipedia.org/wiki/Rubicon" target="_blank">Rubicon</a>.</p>
@@ -59,13 +59,13 @@
                 <h3 class="section-header">Bridge</h3>
                 <p>If you and I were one, Within the eyes of our designs. </p>
                 <p>It would still not change the fact of our leaving... </p>
-                <p>For the <b>Isles Of Ken</b> we are assailing.</p>
+                <p>For the <span class="emphasized-text">Isles Of Ken</span></b> we are <span class="stretched-text">assailing.</span></p>
             </section>
             <!-- Outro -->
             <section class="verse-container" id="verse-five">
                 <h3 class="section-header">Outro</h3>
-                <p>Just like Ullyses, </p>
-                <p>On an open sea. </p>
+                <p>Just like <span class="blue-text">Ullyses</span>, </p>
+                <p>On an <span class="blue-text">Open Sea.</span> </p>
                 <p>On an odyssey, </p>
                 <p>Of self discovery.</p>
             </section>
@@ -73,16 +73,14 @@
             <p class="instrumental-label">Instrumental</p>
         </section>
         <!-- Video Section -->
-        <section>
-            <h2><u>Listen for Yourself:</u></h2>
+        <section id="video-section">
+            <h2>Listen for Yourself:</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/8bXZY9tRdLA?si=Xij7Z9M4Hpuh_Q62"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </section>
-        <!-- User Input form -->
-        <hr>
-        <section>
+        <section id="feedback-container">
             <h3>Feedback</h3>
             <form>
                 <p>Which verse was your favourite?</p>
@@ -90,7 +88,6 @@
                 <button>Submit</button>
             </form>
         </section>
-        <hr>
     </main>
     <!-- Footer Section / Copyrights -->
     <footer>
