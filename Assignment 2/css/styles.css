@@ -1,9 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #E8E5DC;
 }
 
@@ -26,8 +27,17 @@ body{
     margin: auto;
 }
 
-main {
-    
+a {
+    color: #d5dbde;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#lyric-container {
+    background-color: #243D32;
+    width: 95%;
+    padding: 20px 0;
+    margin: auto;
 }
 
 header {
@@ -54,7 +64,7 @@ header p {
     text-shadow: 0 0 20px #273027;
 }
 
-main > h2 {
+main>h2 {
     color: #E8E5DC;
     margin: auto;
     margin-bottom: 20px;
@@ -66,7 +76,7 @@ main > h2 {
 }
 
 .verse-container p {
-    font-family: "Goudy Bookletter 1911" ;
+    font-family: "Goudy Bookletter 1911";
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 200;
@@ -76,14 +86,22 @@ main > h2 {
     background-color: #D8C99B;
     width: 80%;
     padding: 20px 30px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 250px;
+    margin: 20px auto;
+    min-height: 250px;
+    height: auto;
     border: 2px solid #c9bb90;
+    clip-path: polygon(0% 4%,
+            8% 0%,
+            94% 2%,
+            100% 9%,
+            98% 90%,
+            91% 100%,
+            5% 97%,
+            0% 91%);
+    box-shadow: 0px 0px 20px #D8C99B;
 }
 
-.verse-container h3{
+.verse-container h3 {
     font-size: 1.6rem;
     text-align: center;
     margin-bottom: 10px;
@@ -99,22 +117,47 @@ main > h2 {
     margin: 0 20px 10px 0;
 }
 
+.verse-container:first-of-type {
+    margin-top: 40px;
+}
+
 #verse-two {
-    background-color: #c75645;
-    border-color: #a45023;
+    background-color: #cd505d;
+    border-color: #532B30;
+    box-shadow: 0px 0px 20px #cd505d;
+        clip-path: polygon(
+        4% 0, 100% 0, 100% 90%,
+        95% 100%, 0 100%, 0 8%
+    );
 }
 
 #verse-three {
-    background-color: #8FA58A;
-    border-color: #6F856A;
+    background-color: #6c9e55;
+    border-color: #243D32;
+    box-shadow: 0px 0px 20px #6c9e55;
+        clip-path: polygon(
+        0 4%, 8% 0, 92% 3%,
+        100% 0, 97% 100%, 4% 97%
+    );
 }
 
 #verse-four {
-    background-color: #747FA3;
-    border-color: #5D6684;
+    background-color: #528ac6;
+    border-color: #243047;
+    box-shadow: 0px 0px 20px #528ac6;
+    clip-path: polygon(
+        0 0, 94% 0, 100% 10%,
+        96% 96%, 88% 100%, 0 100%
+    );
 }
 
 #verse-five {
-    background-color: #9A7A91;
-    border-color: #785C70;
+    background-color: #a469a7;
+    border-color: #39283D;
+    box-shadow: 0px 0px 20px #a469a7;
+        clip-path: polygon(
+        5% 2%, 96% 0, 100% 7%,
+        98% 88%, 100% 100%,
+        7% 97%, 0 90%, 2% 12%
+    );
 }
