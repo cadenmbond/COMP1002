@@ -17,19 +17,27 @@ body {
     color: #30291F;
 }
 
+#lyric-header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-family: Cinzel Decorative;
+    color:#45372E;
+}
+
 h1 {
     padding: 20px 15px 5px;
     color: #F0E4C9;
     font-family: "Cinzel Decorative", serif;
     font-size: 2.5rem;
-    text-shadow: 2px 2px 5px #17130F;
+    text-shadow: 2px 2px 10px #17130F;
 }
 
 header p {
     color: #D8C49A;
     font-family: "Goudy Bookletter 1911", serf;
     font-size: 1.1rem;
-    text-shadow: 1px 1px 4px #17130F;
+    text-shadow: 0px 0px 8px #17130F;
     padding-bottom: 20px;
 }
 
@@ -66,6 +74,7 @@ header {
     padding: 10px 0;
     margin: auto;
     border: 1px solid #B7A580;
+    border-top: 4px solid #B7A580;
 }
 
 .verse-container {
@@ -85,7 +94,7 @@ header {
     float: left;
     width: 180px;
     height: auto;
-    margin: 0 22px 12px 0;
+    margin-right: 22px;
     border: 3px solid #D0BD96;
     outline: 1px solid #A58A5C;
 }
