@@ -4,17 +4,33 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #E7DFCE;
-    color: #30291F;
-}
-
 .italicized-text {
     font-style: italic;
 }
 
 .emphasized-text {
     font-weight: bold;
+}
+
+body {
+    background-color: #E7DFCE;
+    color: #30291F;
+}
+
+h1 {
+    padding: 20px 15px 5px;
+    color: #F0E4C9;
+    font-family: "Cinzel Decorative", serif;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px #17130F;
+}
+
+header p {
+    color: #D8C49A;
+    font-family: "Goudy Bookletter 1911", serf;
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 4px #17130F;
+    padding-bottom: 20px;
 }
 
 .instrumental-label {
@@ -47,7 +63,6 @@ header {
 #lyric-container {
     background-color: #D5C8AE;
     width: 95%;
-    max-width: 1100px;
     padding: 10px 0;
     margin: auto;
     border: 1px solid #B7A580;
@@ -59,10 +74,11 @@ header {
     width: 85%;
     height: 250px;
     padding: 25px 30px;
-    margin: 25px auto;
+    margin: auto;
+    margin-top: 25px;
     border: 1px solid #B7A580;
     border-left: 5px solid #795044;
-    box-shadow: 0 3px 8px #30291F15;
+    font-family: "Goudy Bookletter 1911";
 }
 
 .verse-container img {
@@ -74,4 +90,8 @@ header {
     outline: 1px solid #A58A5C;
 }
 
-.verse-container 
+.verse-container h3 {
+    text-align: center;
+    font-weight: 600;
+    font-family: Cinzel Decorative;
+}
