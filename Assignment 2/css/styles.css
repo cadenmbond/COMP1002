@@ -17,6 +17,26 @@ body {
     color: #30291F;
 }
 
+.red-text {
+    color: #da3939;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.blue-text {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: rgb(66, 66, 195);
+}
+
+.stretched-text {
+    letter-spacing: 2px;
+}
+
+a {
+    color: #795044
+}
+
 #lyric-header {
     text-align: center;
     margin-bottom: 10px;
@@ -83,6 +103,7 @@ header {
     width: 85%;
     height: 250px;
     padding: 25px 30px;
+    font-size: 1.2rem;
     margin: auto;
     margin-top: 25px;
     border: 1px solid #B7A580;
@@ -103,4 +124,46 @@ header {
     text-align: center;
     font-weight: 600;
     font-family: Cinzel Decorative;
+}
+
+#verse-two, #verse-three, #verse-four, #verse-five {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#video-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 35px;
+    padding: 30px;
+    background-color:#45372E;
+    border: 3px solid #332720;
+    border-top: 6px solid #332720;
+    box-shadow: 5px 5px 20px #3f3128;
+}
+
+#video-section iframe {
+    box-shadow: 0px 0px 20px #29261f;
+    border-radius: 8px;
+    border: 2px solid #dddada;
+    border-top: 5px solid #dddada;
+    border-bottom: 5px solid #dddada;
+}
+
+#video-section hr {
+
+}
+
+#video-section h2 {
+    color: #f3e8d1;
+    font-family: Fondamento;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 2rem;
 }
