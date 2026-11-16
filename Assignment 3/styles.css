@@ -120,14 +120,14 @@ header > nav {
 }
 
 #credit-container{
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .credits{
     color: #0e0e0e;
     font-family: "Roboto Condensed";
-    font-weight: 400;
-    letter-spacing: -1px;
+    font-weight: 600;
+    letter-spacing: -0.25px;
     font-size: 0.4rem;
     line-height: 1.5;
     font-weight: 500;
@@ -150,11 +150,38 @@ header > nav {
 
 #soundtrack-label{
     border: 2px solid #0e0e0e;
-    width: 220px;
-    height: 20px;
+    width: 280px;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
     font-size: 0.75rem;
     letter-spacing: -0.3;
     font-weight: 600;
     text-align: center;
-    margin: 10px auto;
+    margin: 20px auto;
+}
+
+.large-spacing{
+    margin-right: 120px;
+}
+
+.tiny-text{
+    font-size: 0.2rem;
+}
+
+.logo{
+    height:16px;
+    width:32px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.small-logo{
+    height:8px;
+    width:12px;
+}
+
+#capitol-records-logo{
+    margin: 0 auto;
+    margin-left: 10px;
 }
