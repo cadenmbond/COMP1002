@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+main{
+    background-image: url(img/poster_textless.jpg);
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: contain;
+}
+
 body{
     background-color: black;
 }
@@ -39,7 +48,7 @@ header>h1>span{
     text-underline-offset: 6px;
 }
 
-header>nav>ul {
+header>nav>menu>ul {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
@@ -61,26 +70,72 @@ header > nav {
 }
 
 /* Image Size Adjustments */
-img {
-    height: 98.75vh;
-    width: auto;
-    margin-left:33%;
-    border-right: 80px dashed #EEE;
-}
 
 #poster{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .movie-text{
     color: #EEE;
     font-family: "Figtree";
-    font-weight: 600;
-    font-size: 1.6rem;
+    font-weight: 700;
+    font-size: 1.3rem;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .choose-text{
-    font-weight: 800;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+#top-text{
+    margin-top: 30px;
+}
+
+.top-spacing{
+    margin-top: 15px;
+}
+
+#movie-title {
+    color: #eee;
+    font-family: "Figtree";
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 6rem;
+    margin-top: 635px;
+}
+
+#movie-subtitle{
+    color: #eee;
+    font-family: "Figtree";
+    font-weight: 700;
     font-size: 1.8rem;
+    margin-top: 5px;
+}
+
+.credits{
+    color: #0e0e0e;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    letter-spacing: -1px;
+    font-size: 0.4rem;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.large-credits{
+    font-size: 0.7rem;
+}
+
+.column-text{
+    display: inline-block;
+    font-size: 0.25rem;
+    margin-bottom: 5px;
+    line-height: 1;
+    vertical-align: middle;
+    text-align: left;
 }
