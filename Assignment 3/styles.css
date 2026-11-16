@@ -85,6 +85,8 @@ header > nav {
     text-align: center;
     justify-content: center;
     align-items: center;
+    letter-spacing: 1px;
+    transform: scaleY(1.2);
 }
 
 .choose-text{
@@ -104,7 +106,7 @@ header > nav {
     color: #eee;
     font-family: "Figtree";
     font-weight: 900;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 6rem;
     margin-top: 635px;
 }
@@ -117,14 +119,20 @@ header > nav {
     margin-top: 5px;
 }
 
+#credit-container{
+    margin-top: 30px;
+}
+
 .credits{
     color: #0e0e0e;
     font-family: "Roboto Condensed";
     font-weight: 400;
     letter-spacing: -1px;
     font-size: 0.4rem;
-    line-height: 1.2;
-    font-weight: 800;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: center;
+    transform: scaleY(1.5);
 }
 
 .large-credits{
@@ -138,4 +146,15 @@ header > nav {
     line-height: 1;
     vertical-align: middle;
     text-align: left;
+}
+
+#soundtrack-label{
+    border: 2px solid #0e0e0e;
+    width: 220px;
+    height: 20px;
+    font-size: 0.75rem;
+    letter-spacing: -0.3;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px auto;
 }
