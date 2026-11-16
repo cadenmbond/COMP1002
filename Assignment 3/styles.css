@@ -9,7 +9,7 @@ body{
 }
 
 header {
-    background-image: url(./img/header-background.jpg);
+    background-color:#ff560d;
     background-position-x: center;
     width: 100%;
     min-height: 120px;
@@ -20,6 +20,23 @@ header {
     flex-direction: row;
     align-items: center;
     border-bottom: 3px solid #EEE;
+}
+
+/* Train Style underline on Header*/
+
+header>h1{
+    font-weight: 800;
+    text-decoration:underline dashed;
+    text-decoration-style:double;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #88452b;
+    text-decoration-skip-ink:none;
+}
+
+/* train tracks */
+header>h1>span{
+    text-decoration: underline dashed #DDD 1px;
+    text-underline-offset: 6px;
 }
 
 header>nav>ul {
@@ -45,9 +62,25 @@ header > nav {
 
 /* Image Size Adjustments */
 img {
-    height: 98.75%;
+    height: 98.75vh;
     width: auto;
     margin-left:33%;
     border-right: 80px dashed #EEE;
 }
 
+#poster{
+    display: flex;
+}
+
+.movie-text{
+    color: #EEE;
+    font-family: "Figtree";
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.choose-text{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
